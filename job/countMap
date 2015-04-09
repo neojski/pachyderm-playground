@@ -1,0 +1,9 @@
+{
+  "input"    : "count_input",
+  "type"     : "map",
+  "command"  : ["/bin/map"],
+  "image"    : "neojski/pachyderm-count-map",
+  "parallel" : 5,
+  "timeout"  : 1200,
+  "limit"    : 5
+}

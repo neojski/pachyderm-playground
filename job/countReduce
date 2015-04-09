@@ -1,0 +1,9 @@
+{
+  "input"    : "job/countMap",
+  "type"     : "reduce",
+  "command"  : ["/bin/reduce"],
+  "image"    : "neojski/pachyderm-count-reduce",
+  "parallel" : 5,
+  "timeout"  : 1200,
+  "limit"    : 5
+}
