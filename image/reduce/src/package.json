@@ -1,0 +1,6 @@
+{
+  "name": "pachyderm-count-reduce",
+  "dependencies": {
+    "byline": "^4.2.1"
+  }
+}

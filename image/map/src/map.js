@@ -6,7 +6,6 @@ http.createServer(function (req, res) {
     len += chunk.length;
   });
   req.on('end', function () {
-    res.writeHead(200, {'Content-Type': 'text/plain'});
-    res.end('' + len);
+    res.end('' + len + '\n');
   });
 }).listen(80, '0.0.0.0');

@@ -1,5 +1,5 @@
-FROM dockerfile/nodejs
+FROM node
 
-ADD bin/map.js    /bin/map
+ADD src/map.js    /bin/map
 
 EXPOSE 80

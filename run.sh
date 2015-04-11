@@ -4,7 +4,10 @@
 HOST=localhost:650
 
 # Upload book1 task
-curl -XPOST "$HOST/file/count_input/book1.txt" -T data/book1.txt
+for file in data/*; do
+  file=$(basename $file)
+  curl -XPOST "$HOST/file/count_input/$file" -T "data/$file"
+done
 
 # Upload count job
 curl -XPOST "$HOST/job/countMap"    -T job/countMap
