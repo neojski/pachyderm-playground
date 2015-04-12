@@ -8,7 +8,7 @@ http.createServer(function (req, res) {
   line_stream.on('data', function (line) {
     total += parseInt(line, 10);
   });
-  line_stream.on('end', function() {
+  line_stream.on('end', function () {
     res.end(total + '\n');
   });
 }).listen(80, '0.0.0.0');

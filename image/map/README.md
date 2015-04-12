@@ -1,1 +1,1 @@
-Docker image to run map on pachyderm. It runs on [localhost:80](http://localhost:80) and calcuates the length of input file.
+[Docker image](https://registry.hub.docker.com/u/neojski/pachyderm-count-map) to run map on pachyderm. It starts an http server on [localhost:80](http://localhost:80) and calculates the length of input file.

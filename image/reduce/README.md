@@ -1,1 +1,1 @@
-Docker image to run reduce on pachyderm. It runs on [localhost:80](http://localhost:80) and sums up all the input numbers (one per line).
+[Docker image](https://registry.hub.docker.com/u/neojski/pachyderm-count-reduce) to run reduce on pachyderm. It starts an http server on [localhost:80](http://localhost:80) and sums up all the input numbers (one per line).
